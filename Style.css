@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#fundo{
+    background-image:url("../images/Papelparede.png");
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    font-style:italic;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+.container .box-e{
+  flex: 0.5;
+  height: 100vh;
+  background-color:rgba(255, 255, 255, 0.7);
+}
+
+.container .box-e .wrap{
+  flex-wrap: wrap;
+}
+
+.image{
+  width: 35%;
+  display: block; /* Necessário para o margin funcionar */
+  margin-top: 150px;
+  margin-left: auto; /* aqui */
+  margin-right: auto; /* e aqui */
+  border-radius: 50%;
+}
+
+.item5{
+  text-align: center;
+  margin-left: 5px;
+  background-color:rgba(255, 255, 255, 0.1);
+  font-size: 0.8em;
+  padding: 0 10px;
+  }
+
+.item6{
+  margin-top: 100px;
+  margin-left: 30px;
+  padding: 0 10px;
+  background-color:rgba(144, 160, 230, 0.1);
+  text-align: left;
+  font-size: 0.7em;
+  }
+
+  .item7{
+    margin-top: 200px;
+    margin-left: 30px;
+    padding: 0 10px;
+    background-color:rgba(144, 160, 230, 0.1);
+    text-align: left;
+    font-size: 0.7em;
+    }
+
+.container .box-d{
+  height: 100vh;
+  flex: 1;
+  background-color:rgba(144, 160, 230, 0.5);
+}
+
+.container .box-d .wrap{
+  flex-wrap: wrap;
+}
+
+.item1{
+margin-top: 150px;
+margin-left: 30px;
+padding: 0 10px;
+background-color:rgba(144, 160, 230, 0.1);
+text-align: left;
+font-size: 2em;
+}
+
+.item2{
+margin-left: 30px;
+padding: 0 10px;
+background-color:rgba(144, 160, 230, 0.1);
+text-align: left;
+font-size: 1em;
+}
+
+.item3{
+margin-left: 30px;
+padding: 0 10px;
+background-color:rgba(144, 160, 230, 0.1);
+text-align: left;
+font-size: 0.7em;
+}
+
+.item4{
+margin-left: 30px;
+padding: 0 10px;
+background-color:rgba(144, 160, 230, 0.1);
+}
+
+.image1{
+width: 50px;
+height: 50px;
+}
